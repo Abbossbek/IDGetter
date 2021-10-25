@@ -1,0 +1,24 @@
+﻿<Window x:Class="IDGetter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IDGetter"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Your device ID"
+        Height="200"
+        Width="700">
+    <StackPanel Margin="30">
+        <TextBox x:Name="tbID"
+                 Margin="10"
+                 FontSize="20"
+                 VerticalAlignment="Center"
+                 TextAlignment="Center" />
+        <Button x:Name="btnCopy"
+                Margin="10"
+                Padding="5"
+                Content="Copy"
+                Click="btnCopy_Click" />
+    </StackPanel>
+</Window>
